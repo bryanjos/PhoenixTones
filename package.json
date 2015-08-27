@@ -1,0 +1,31 @@
+{
+  "repository": {},
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.5.2",
+    "jspm": "^0.16.1"
+  },
+  "jspm": {
+    "directories": {
+      "lib": "web/static/js",
+      "packages": "priv/static/jspm_packages"
+    },
+    "configFile": "priv/static/config.js",
+    "dependencies": {
+      "localforage": "npm:localforage@^1.2.7",
+      "react": "npm:react@^0.13.3",
+      "tone": "npm:tone@^0.5.1"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.22",
+      "babel-runtime": "npm:babel-runtime@^5.8.20",
+      "core-js": "npm:core-js@^1.1.0"
+    }
+  }
+}
